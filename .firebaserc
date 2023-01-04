@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "o-shop-b4bb8",
+    "devolvepement": "o-shop-b4bb8"
+  },
+  "targets": {
+    "fir-demo-8c455": {
+      "hosting": {
+        "oshop": [
+          "fir-demo-8c455"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

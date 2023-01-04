@@ -1,0 +1,20 @@
+<h1>Orders</h1>
+<div class="col-11 d-grid gap-2 ">
+  <table class="table" >
+    <thead>
+      <tr>
+        <th>Customer</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody><!--order.userId-->
+      <tr *ngFor="let order of orders">
+
+        <td>{{order.shipping.name}}</td>
+        <td>{{getWrittenTime(order.dataPlaced)}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+

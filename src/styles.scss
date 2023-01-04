@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+$primary-color: rgb(71, 155, 155);
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+.fa {
+  color: $primary-color;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
